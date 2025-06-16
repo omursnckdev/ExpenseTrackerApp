@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const BACKEND_URL = "https://reactnativeprojcet-default-rtdb.europe-west1.firebasedatabase.app";
+const BACKEND_URL = "https://reactnativeprojcet-default-rtdb.europe-west1.firebasedatabaseapp";
 
 export async function storeExpense(expenseData){
   const response = await axios.post(BACKEND_URL + '/expenses.json', expenseData);
